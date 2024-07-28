@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function frecuenciaC(edad, peso){
+            let frecuencia = 210 - (0.5 * edad) - (0.01 * peso + 4);
+            document.write("La edad ingresada es: " + edad + "<br>");
+            document.write("El peso ingresado es: " + peso + "<br>");
+            document.write("La frecuencia cardiaca es: " + frecuencia);
+        }
+    </script>
+</head>
+<body>
+
+    <script>
+        let edad = parseInt(prompt("Ingrese edad:"));
+        let peso = parseInt(prompt("Ingrese peso:"));
+        frecuenciaC(edad, peso);
+    </script>
+    
+</body>
+</html>

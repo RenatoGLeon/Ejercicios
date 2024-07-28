@@ -1,0 +1,102 @@
+body{
+    background-color: gray;
+    margin:0px auto;
+}
+    
+#principal{
+    width: 80%;
+    height: auto;
+    float: left;
+    margin:0 10% 0 10%;
+    border-radius: 20px 20px 0 0;
+    background-color: white;
+}
+
+header,section,footer{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 5px;
+}
+
+nav{
+    width: 90%;
+    margin:0 5% 0 5%;
+    height: auto;
+    float: left;
+    text-align:right;
+}
+    
+.item{
+    width:15%;
+    margin:10px 0 10px 0;
+    height:20px;
+    float:left;
+    color:gray;
+    text-align:center;
+    text-decoration:none;
+}
+
+.item:hover{
+    color:blue;
+    text-decoration:underline;
+}
+
+#h1cab{
+    text-align: center;
+    color:gray;
+}
+
+#imgcab{
+    width: 100%;
+    height: 250px;
+    float: left;
+    margin:0;
+    opacity: 1;
+}
+
+#pf, #ph{
+    width: 48%;
+    height: 20px;
+    float: left;
+    border-radius: 10px;
+    color: white;
+    background-color: gray;
+    padding-left:2%;
+}
+
+.h2cab{
+    text-align: center;
+    color: gray;
+}
+
+.blok{
+    width: 22%;
+    min-height: 200px;
+    height: auto;
+    border:1px solid;
+    float: left;
+    margin:1%;
+    color: gray;
+}
+
+.imgblok{
+    width:98%;
+    height:250px;
+    margin:3px 1% 3px 1%;
+    float:left;
+}
+
+.pblok{
+    text-align:justify;
+    font-size:16px;
+    margin-left:2px;
+}
+
+#imgpie{
+    width: 100%;
+    height: 70px;
+    float: left;
+    margin-top:20px;
+    margin-bottom: 20px;
+}

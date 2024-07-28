@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function areadelRombo(D, d){
+        let area = D*d /2
+        document.write("La Diagonal mayor ingresada es: " + D + "<br>");
+        document.write("La diagonal menor ingresada es: " + d + "<br>");
+        document.write("El area del rombo es: " + D + "*" + d + "/ 2 " + "= " + area);
+        }
+    </script>
+</head>
+<body>
+
+    <script>
+
+        let D = parseInt(prompt("Ingrese diagonal mayor:"));
+        let d = parseInt(prompt("Ingrese diagonal menor:"));
+        areadelRombo(D,d);
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 1</title>
+    <script>
+        function radioAltura(){
+            let radioStr = prompt("Ingrese el radio del cilindro:")
+            let alturaStr = prompt("Ingrese la altura del cilindro: ")
+
+            let radio = parseFloat(radioStr);
+            let altura = parseFloat(alturaStr);
+
+            return {radio, altura};
+        }
+
+        function areaLateral(radio, altura){
+            let lateral = 2 * 3.1416 * radio * altura;
+            document.write("El radio ingresado es: " + radio + "<br>");
+            document.write("La altura ingresada es: " + altura + "<br>");
+            document.write("El área lateral del cilindro es: 2 * 3.1416 " + "* " + radio + " * " + altura + " = " + lateral + "<br>");
+        }
+        function areaBase(radio){
+            let base = 3.1416 * radio**2;
+            document.write("El área de la base del cilindro es: 3.1416 * " + radio + "²" + " = " + base + "<br>");
+        }
+
+        function areaTotal(radio, altura){
+        let area = 2 * base * lateral
+        document.write("El área total del cilindro es: 2 * " + lateral + " + " + base + "="  + area)
+        }
+    </script>
+</head>
+<body>
+    <h1>Actividad 1</h1>
+    <script>
+        let radio = parseInt(prompt("Ingrese radio"));
+        let altura = parseInt(prompt("Ingrese altura:"));
+        areaLateral(radio, altura);
+        areaBase(radio);
+        areatotal(lateral, base);
+        
+    </script>
+</body>
+</html>

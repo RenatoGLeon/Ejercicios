@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function areadelRombo(B, b, h){
+        let area = (b+B)*h / 2;
+        document.write("La base mayor ingresada es: " + B + "<br>");
+        document.write("La base menor ingresada es: " + b + "<br>");
+        document.write("La altura ingresada es: " + h + "<br>");
+        document.write("El area del rombo es: " + "(" + b + "+" + B + ")" + " * " + h + "=" + area);
+        }
+    </script>
+</head>
+<body>
+
+    <script>
+
+        let B = parseInt(prompt("Ingrese base mayor:"));
+        let b = parseInt(prompt("Ingrese base menor:"));
+        let h = parseInt(prompt("Ingrese altura:"));
+
+        areadelRombo(B, b, h);
+
+    </script>
+    
+</body>
+</html>

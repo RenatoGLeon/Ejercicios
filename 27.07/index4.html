@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function areaTriangulo(b, h){
+            let area = b*h;
+            document.write("La altura ingresada es: " + h + "<br>");
+            document.write("La base ingresada es:" + b + "<br>");
+            document.write("El área del triángulo es: " + b + " * " + h + "=" + area + "<br>");
+        }
+        function perimetroTriangulo(b, h){
+            let perimetro = 2*(b+h);
+            document.write("El perímetro del triángulo es: " + "(" + b + "+" + h + ")" + " * " + "2 " + "= " + perimetro);
+        }
+    </script>
+</head>
+<body>
+
+    <script>
+        let b = parseInt(prompt("Ingrese base del triangulo :"));
+        let h = parseInt(prompt("Ingrese altura del triangulo:"));
+
+        areaTriangulo(b,h);
+        perimetroTriangulo(b,h);
+
+    </script>
+    
+</body>
+</html>
